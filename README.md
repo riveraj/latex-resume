@@ -1,2 +1,2 @@
 # latex-resume
-My resume, written in LaTeX using [moderncv](https://github.com/xdanaux/moderncv).
+My resume, typeset in LaTeX using [moderncv](https://github.com/xdanaux/moderncv).
