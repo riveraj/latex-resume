@@ -1,0 +1,19 @@
+{
+    "name": "riveraj/latex-resume",
+    "description": "My resume, written in LaTeX with Twig templating.",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+        "ext-yaml": "^2.0",
+        "consolidation/robo": "^1.0",
+        "twig/twig": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Rivera",
+            "email": "riveraj@buffalo.edu"
+        }
+    ],
+    "minimum-stability": "stable"
+}

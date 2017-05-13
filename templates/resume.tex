@@ -1,0 +1,67 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{grey}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.9]{geometry}
+
+\name{<< name['first'] >> << name['middle'] >>}{<< name['last'] >>}
+\address{<< address >>}{}{}
+\phone[fixed]{<< phone >>}
+\email{<< email >>}
+\social[linkedin]{<< linkedin >>}
+\social[github]{<< github >>}
+
+\begin{document}
+    \makecvtitle
+    \vspace*{-1cm}
+
+    \section{Education}
+
+    <% for degree in education %>
+        \cventry{<< degree['date'] >>}{<< degree['degree'] >>}{<< degree['school'] >>}{<< degree['location'] >>}{<< degree['honors'] >>}{<< degree['extra'] >>}
+    <% endfor %>
+
+    \section{Projects}
+
+	<% for project in projects %>
+        \cventry{<< project['status'] >>}{<< project['name'] >>}{<< project['location'] >>}{<< project['type'] >>}{}{<< project['description'] >>}
+    <% endfor %>
+
+    \section{Core Technical Skills}
+
+        \subsection{Proficient With}
+            \cvline{languages}{<< skills['proficient']['languages']|join(', ') >>}
+            \cvline{technologies}{<< skills['proficient']['technologies']|join(', ') >>}
+        \subsection{Have Experience With}
+            \cvline{languages}{<< skills['experienced']['languages']|join(', ') >>}
+            \cvline{technologies}{<< skills['experienced']['technologies']|join(', ') >>}
+            \cvline{frameworks}{<< skills['experienced']['frameworks']|join(', ') >>}
+
+    \section{Experience}
+
+	<% for employment in experience %>
+        \cventry{<< employment['dates']['start'] >> \\ to << employment['dates']['end'] >>}{<< employment['title'] >>}{<< employment['employer'] >>}{<< employment['location'] >>}{}{<< employment['description'] >>
+        \begin{itemize}
+        <% for accomplishment in employment['accomplishments'] %>
+            \item << accomplishment >>
+        <% endfor %>
+        \end{itemize}}
+    <% endfor %>
+
+    \newpage
+
+    \section{Additional Education}
+
+	<% for education in addendum['education'] %>
+        \cventry{<< education['date'] >>}{<< education['degree'] >>}{<< education['school'] >>}{<< education['location'] >>}{<< education['honors'] >>}{<< education['extra'] >>}
+	<% endfor %>
+
+    \section{Additional Experience}
+
+	<% for employment in addendum['experience'] %>
+        \cventry{<< employment['dates']['start'] >> \\ to << employment['dates']['end'] >>}{<< employment['title'] >>}{<< employment['employer'] >>}{<< employment['location'] >>}{}{<< employment['description'] >>}
+    <% endfor %>
+
+\end{document}

@@ -1,0 +1,186 @@
+name:
+  first: John
+  middle: J.
+  last: Rivera
+address: Omitted for web
+phone: Omitted for web
+email: riveraj@buffalo.edu
+linkedin: johnjrivera
+github: riveraj
+
+education:
+  - 
+    degree: BS, Computer Science
+    school: Rochester Institute of Technology
+    location: Rochester, NY
+    honors: Magna cum Laude
+    date: may 2016
+    extra: Minor in Software Engineering
+  - 
+    degree: AS, Computer Science
+    school: Nassau Community College
+    location: Garden City, NY
+    honors: Magna cum Laude
+    date: dec 2013
+    extra: Phi Theta Kappa International Honor Society
+
+projects:
+  -
+    name: Ralph
+    location: Center for Computational Research, the University at Buffalo
+    type: library
+    status: completed
+    description:
+      A simple SPARQL query library built on top of Guzzle, a object-oriented
+      HTTP client library for PHP. Began as a component of the REDfly project;
+      was broken off into its own library.
+  -
+    name: SubjectJ
+    location: Independent Study, Rochester Institute of Technology
+    type: language
+    status: ongoing
+    description:
+      A subject-oriented extension to the Java programming language. Developing
+      an API for weaving Java class files by manipulating Java bytecode.
+      Continued as a personal project after completion of the independent study.
+
+skills:
+  proficient:
+    languages:
+      - Java
+      - JavaScript
+      - Haskell
+      - PHP
+      - SQL
+      - Shell Scripting
+    technologies:
+      - AspectJ
+      - Composer
+      - Eclipse
+      - GNU Make
+      - Git
+      - Maven
+      - MySQL
+      - PostgreSQL
+  experienced:
+    languages:
+      - Assembly
+      - C/C++
+      - C\#
+      - \LaTeX
+      - Lisp
+      - Matlab
+      - Prolog
+      - Python
+      - Swift
+    technologies:
+      - Amazon Web Services
+      - Android SDK
+      - Eucalyptus
+      - Jenkins
+      - Node.js
+      - OpenCV
+      - RDF
+      - SPARQL
+    frameworks:
+      - AngularJS
+      - Django
+      - Express.js
+      - ExtJS
+      - Guice
+      - Spring
+
+experience:
+  -
+    title: Scientific Programmer
+    employer: SUNY The University at Buffalo
+    location: Buffalo, NY
+    description:
+      Core developer on the Regulatory Element Database for Drosophila (REDfly)
+      project.
+    dates:
+      start: aug 2016
+      end: present
+    accomplishments:
+      - 
+        Scaled the application from only being able to calculate approximately
+        1,000 data records to being able to handle over 25,000 records.
+      -
+        Introduced build processes that enforces coding standards and reduced
+        downtime for a complete deployment from an hour to less than five
+        minutes.
+      -
+        Introduced use of RDF graphs and SPARQL queries to enable working
+        directly with fly anatomy and staging ontologies.
+  -
+    title: Software Engineer Co-op
+    employer: EagleDream Technologies
+    location: Rochester, NY
+    description:
+      Worked with a team developing the EagleDream Health medical records
+      analysis web application.
+    dates:
+      start: jan 2015
+      end: jul 2015
+    accomplishments:
+      -
+        Developed a module for extracting, transforming and loading (ETL)
+        data from existing electronic health record systems for data
+        warehousing using Java and Amazon Web Services.
+      - 
+        Worked on the middleware and front end of the web application based
+        on Java, Spring and AngularJS
+  -
+    title: Undergraduate Research Assistant
+    employer: Rochester Institute of Technology
+    location: Rochester, NY
+    description:
+      Worked as a research assistant to a professor researching accessible
+      technologies for the deaf.
+    dates:
+      start: may 2014
+      end: aug 2014
+    accomplishments:
+      -
+        Researched methods of improving accessibility to deaf students in the
+        classroom using technology.
+      -
+        Developed a prototype browser-based captioning system for the classroom
+        using JavaScript, Python and Node.js.
+
+addendum:
+  education:
+    -
+      degree: JD
+      school: University of California, Hastings College of the Law
+      location: San Francisco, CA
+      honors:
+      date: may 2010
+      extra: Intellectual Property Concentration, Pro Bono Society
+    -
+      degree: BA, History \& Philosophy
+      school: Gallaudet University
+      location: Washington, DC
+      honors: Summa cum Laude
+      date: may 2007
+      extra: Phi Alpha Pi Scholastic Honor Society
+  experience:
+    -
+      title: Resident Advisor
+      employer: Rochester Institute of Technology
+      location: Rochester, NY
+      description:
+        Resident advisor at the residence halls at the institute
+      dates:
+        start: aug 2015
+        end: may 2016
+    -
+      title: Undergraduate Research Assistant
+      employer: Nassau Community College
+      location: Garden City, NY
+      description:
+        Worked with students and faculty on the MouseTrap project with the
+        GNOME Accessibility Team.
+      dates:
+        start: jan 2013
+        end: may 2013

@@ -6,3 +6,7 @@
 
 # Mac finder files and hidden folders
 .DS_Store
+
+# Composer files
+composer.lock
+/vendor/
