@@ -56,12 +56,14 @@ skills:
     technologies:
       - AspectJ
       - Composer
+      - Docker
       - Eclipse
       - GNU Make
       - Git
       - Maven
       - MySQL
       - PostgreSQL
+      - SQLite
   experienced:
     languages:
       - Assembly
@@ -77,6 +79,7 @@ skills:
       - Amazon Web Services
       - Android SDK
       - Eucalyptus
+      - JIRA
       - Jenkins
       - Node.js
       - OpenCV
