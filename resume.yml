@@ -2,7 +2,11 @@ name:
   first: John
   middle: J.
   last: Rivera
-address: Omitted for web
+address:
+  street: Omitted for web
+  city:
+  state:
+  zip:
 phone: Omitted for web
 email: riveraj@buffalo.edu
 linkedin: johnjrivera
@@ -74,7 +78,9 @@ skills:
       - Matlab
       - Prolog
       - Python
+      - Rust
       - Swift
+      - TypeScript
     technologies:
       - Amazon Web Services
       - Android SDK
@@ -100,7 +106,7 @@ experience:
     location: Buffalo, NY
     description:
       Core developer on the Regulatory Element Database for Drosophila (REDfly)
-      project.
+      project at the Center for Computational Research.
     dates:
       start: aug 2016
       end: present
@@ -161,7 +167,7 @@ addendum:
       date: may 2010
       extra: Intellectual Property Concentration, Pro Bono Society
     -
-      degree: BA, History \& Philosophy
+      degree: BA, History and Philosophy
       school: Gallaudet University
       location: Washington, DC
       honors: Summa cum Laude
